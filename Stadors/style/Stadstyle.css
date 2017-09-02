@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #48684E; 
+	}
+.stadli{
+	height:  ;
+	top: 15%;
+	right: 30%;
+	position: absolute;
+	color: #886D59 ;
+	padding: 10px;
+	text-align: center;
+	color: #FBF4F8;
+}
+
+.stadlitf{ 
+	border-bottom-width: 3px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #ECFF04;
+	background-color: transparent;
+	height:30px;
+	width:160px;
+	color:yellow;
+	}
+.stadlitf:focus{
+	border-bottom-color: yellow;
+	outline:none;
+	height:40px;
+	transition-duration:.3s;
+	}
+.stadlitfpn{	border-bottom-width: 3px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #ECFF04;
+	background-color: transparent;
+	height:30px;
+	width:260px;
+	color:yellow;
+	}
+	.stadlitfpn:focus{
+	border-bottom-color: yellow;
+	outline:none;
+	height:40px;
+	transition-duration:.3s;
+	}
+.stadlisub{ width:160px;
+height: 30px;
+background-color: transparent; border:1px gold solid ;
+	}
+.stadlisub:hover{
+	background-color: gold;}	
+@font-face {
+	font-family: "LOT";
+	src:url("LOT.otf") format("opentype");
+	}	
+.stadname{
+	font-family: "LOT", san-serif;
+	width:100%;
+	text-shadow:2px rgba(102,102,102,.4);;
+	}
+	@
+.stadmp {
+	margin-left:5px;
+	margin-right:5px;
+    
+	}
+.c { float:center;
+
+	}	
+.stadlicf{
+	border:none;
+	color:#886D59;
+	}
+.stadlicf:focus{
+	outline:none; }
+	.js .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 80%;
+    font-size: 1.25rem;
+    /* 20px */
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    /* 10px 20px */
+}
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label * {
+    /* pointer-events: none; */
+    /* in case of FastClick lib use */
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+.inputfile-5 + label {
+    color: #d3394c;
+}
+
+.inputfile-5:focus + label,
+.inputfile-5.has-focus + label,
+.inputfile-5 + label:hover {
+    color: #722040;
+}
+
+.inputfile-5 + label figure {
+    width: 150px;
+    height: 100px;
+    background-color: #d3394c;
+    display: block;
+    position: relative;
+    padding: 30px;
+    margin: 0 auto 10px;
+}
+
+.inputfile-5:focus + label figure,
+.inputfile-5.has-focus + label figure,
+.inputfile-5 + label:hover figure {
+    background-color: #722040;
+}
+
+.inputfile-5 + label figure::before,
+.inputfile-5 + label figure::after {
+    width: 0;
+    height: 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.inputfile-5 + label figure::before {
+    border-top: 20px solid #dfc8ca;
+    border-left: 20px solid transparent;
+}
+
+.inputfile-5 + label figure::after {
+    border-bottom: 20px solid #722040;
+    border-right: 20px solid transparent;
+}
+
+.inputfile-5:focus + label figure::after,
+.inputfile-5.has-focus + label figure::after,
+.inputfile-5 + label:hover figure::after {
+    border-bottom-color: #d3394c;
+}
+
+.inputfile-5 + label svg {
+    width: 100%;
+    height: 100%;
+    fill: #f1e5e6;
+}
+.yellow{
+	color:yellow;}
+option{
+	color:#003;}
